@@ -116,6 +116,35 @@ margin-left: 50px;
     justify-content: space-between;
    
  }
+ .whatdo{
+    width: 920px;
+    margin: auto;
+    margin-top: 80px;
+
+ }
+ .whatdo h1,p{
+    text-align: center;
+    margin-bottom: 25px;
+ }
+
+ .baba{
+    display: flex;
+    justify-content: space-between;
+ }
+ .children{
+    border: 1px solid gray;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ .children img,h4 {
+    margin-bottom: 15px;
+ }
+ .children p{
+    text-align: start;
+    font-weight: 200;
+    color: gray;
+ }
  
 
 
