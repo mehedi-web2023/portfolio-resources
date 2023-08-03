@@ -123,7 +123,7 @@ margin-left: 50px;
 
  }
  .whatdo h1,p{
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 25px;
  }
 
@@ -145,6 +145,80 @@ margin-left: 50px;
     font-weight: 200;
     color: gray;
  }
+
+ .resume{
+
+ }
  
+ .resume h1{
+    text-align: center;
+    margin: 60px 0px;
+
+ }
+ .resume-info{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+
+ }
+ .Education{
+    width: 400px;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(202, 200, 200);
+    
+
+ }
+ .downld{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+ }
+ .downld button{
+    padding: 11px 20px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px
+    
+ }
+
+ .Education p{
+    color: gray;
+    margin-top: 20px;
+    line-height: 25px;
 
 
+
+ }
+
+ footer{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+ }
+
+ .contact-info{
+    width: 496px;
+ }
+
+ .input-form h1{
+margin-bottom: 40px;
+ }
+ .input-f input{
+    width: 296px;
+    height: 29px;
+    margin-top: 29px;
+    padding: 0px 10px;
+    border: none;
+ }
+
+ .Submit-btn{
+    margin-top: 30px;
+    padding: 11px 20px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px
+
+ }
